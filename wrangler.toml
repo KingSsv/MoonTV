@@ -1,0 +1,6 @@
+name = "moontv" # 你的 Worker 名称
+compatibility_date = "2026-04-28" # 必须设置为当前日期
+
+[assets]
+directory = "./dist" # MoonTV 构建后的文件夹
+not_found_handling = "single-page-application" # MoonTV 是 SPA，必须开启此选项，否则刷新页面会 404
