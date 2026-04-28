@@ -1,0 +1,7 @@
+name = "moontv"
+# main 字段对于纯静态项目可以留空或删除
+compatibility_date = "2026-04-28"
+
+[assets]
+directory = "./dist" # 必须与上面部署命令中的路径一致
+not_found_handling = "single-page-application" # MoonTV 是单页应用，此行至关重要
